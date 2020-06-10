@@ -3,6 +3,24 @@
  ******************************************************************************/
 
 
+ 
+ 
+
+function convertToF(celsius) {
+  
+  let fahrenheit = celsius * 9 / 5 + 32;
+   return fahrenheit
+}
+let userInput = getInput(0)
+let temp = convertToF(userInput);
+let message = ' degrees Celsius is ' + temp + ' degrees in Fahrenheit.';
+
+
+
+
+console.log(userInput + message)
+
+
 
 
 
